@@ -4,7 +4,7 @@ Bienvenue dans ce test technique destiné aux développeurs souhaitant rejoindre
 
 ## 🎯 Objectif du test
 
-L'objectif est d'implémenter un **plugin Bukkit pour Minecraft 1.8.8** qui affiche un **scoreboard dynamique** à chaque joueur connecté. Ce scoreboard doit contenir les informations suivantes, mises à jour en temps réel :
+L'objectif est d'implémenter un **plugin Bukkit pour Minecraft 1.21.11** qui affiche un **scoreboard dynamique** à chaque joueur connecté. Ce scoreboard doit contenir les informations suivantes, mises à jour en temps réel :
 
 - Le pseudo du joueur.
 - Le nombre de points de vie actuels.
@@ -26,17 +26,17 @@ Ce test est **court** mais suffisamment révélateur pour comprendre votre appro
 
 ## 🛠️ Environnement attendu
 
-- Minecraft **1.8.8**
-- Bukkit / Spigot / Paper API
-- Java 8-11
-- Maven
+- Minecraft **1.21.11**
+- Paper API
+- Java 21
+- Gradle
 
 ## 📦 Démarrage rapide
 
 1. Clonez ce repo.
 2. Importez-le dans votre IDE préféré (IntelliJ, Eclipse, etc.) en tant que projet Maven.
 3. Développez votre code à partir de la classe `Main.java` existante.
-4. Compilez votre plugin avec Maven (`mvn clean package`) et testez-le sur un serveur Paper 1.8.8.
+4. Compilez votre plugin avec Maven (`mvn clean package`) et testez-le avec `./gradlew runServer`
 
 ## ✅ Critères de réussite
 
